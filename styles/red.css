@@ -31,4 +31,16 @@ html { font-size: 10px;
     display: block;
     margin: 0 auto;
     width: 400px;
-  }  
+  } 
+  h2 {
+    margin: 0;
+    padding: 30px 0;
+    color: #28f41a;
+    text-shadow: 3px 3px 1px black;
+  } 
+  h3 {
+    margin: 0;
+    padding: 40px 0;
+    color: #d72587;
+    text-shadow: 3px 3px 1px black;
+  }
