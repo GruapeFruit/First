@@ -14,13 +14,13 @@ var myHeading = document.querySelector('h1');
 function setUserName() {
     var myName = prompt('Мне нужно твое имя.');
     localStorage.setItem('name', myName);
-    myHeading.textContent = 'Bobr kurwa - ' + myName;
+    myHeading.textContent = 'Hello - ' + myName;
   }
   if(!localStorage.getItem('name')) {
     setUserName();
   } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Bobr kurwa - ' + storedName;
+    myHeading.textContent = 'Hello - ' + storedName;
   }
   myButton.onclick = function() {
     setUserName();
